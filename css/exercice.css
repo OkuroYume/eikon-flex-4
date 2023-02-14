@@ -14,35 +14,18 @@
 .exercice-align-content-1 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-content: center;
   justify-content: flex-start;
 }
 
-.container .element-pink{
-  order: -1;
-}
-
-.container .element-yellow{
- order: 1;
-}
-
-.container .element-gray{
-  order: 2;
- }
-
- .container .element-red{
-  order: 3;
- }
-
- .container .element-blue{
-  order: 4;
- }
-
- .container .element-green{
-  order: 5;
- }
 /*4. exercice-align-content-2 */
+.exercice-align-content-2 .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /*5. exercice-align-content-3 */
 
